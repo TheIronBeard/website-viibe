@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    padding:16px;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.headlink {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headlink,
+.sumtext {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    margin: 30px;
+    padding: 0px;
+    gap: 16px;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+}
+
+.headshot {
+    display: flex;
+    flex-shrink: 1;
+    height: 250px;
+    margin: 30px;
+
+}
+
+.summary {
+    display: flex;
+    justify-content: center;
+}
+
+.sumtext,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links,
+.sumtext {
+    font-size: 18px;
+}
+
+.sumtext {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 0;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.abouttext {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.text {
+    max-width: 200px;
+}
+
+.textimg {
+    display: inline;
+    align-items: center;
+    height: 150px;
+    width: auto;
+    padding: 3px;
+    background-color: lightskyblue;
+}
+
+img {
+    display: flex;
+    max-width: 200px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    margin: 0px;
+    padding: 100px;
+}
+
+.quoteperson {
+    font-style: normal;
+    font-weight: 700;
+    color: #1F2937;
+    font-size: 16px;
+    text-align: right;
+}
+
+.emailbutton {
+    background-color: #3882F6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button,
+.buttontext {
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+}
+
+button {
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    overflow: hidden;
+}
